@@ -1,0 +1,30 @@
+Name Destination
+
+netflix-signup signup.netflix.com 
+netflix-www www.netflix.com 
+netflix-appboot appboot.netflix.com 
+netflix-cbp-us cbp-us.nccp.netflix.com
+netflix-akamai a248.e.akamai.net 
+netflix-api-global api-global.netflix.com
+netflix-movies movies.netflix.com 
+netflix-movies1 movies1.netflix.com 
+netflix-secure secure.netflix.com 
+netflix-moviecontrol moviecontrol.netflix.com
+netflix-api api.netflix.com 
+netflix-api-us api-us.netflix.com 
+netflix-uiboot uiboot.netflix.com 
+netflix-cbp cbp.nccp.netflix.com
+netflix-ios ios.nccp.netflix.com 
+netflix-xbox xbox.nccp.netflix.com
+netflix-nrdp-31 nccp-nrdp-31.cloud.netflix.net
+netflix-nintendo nintendo.nccp.netflix.com
+netflix-playstation playstation.nccp.netflix.com
+netflix-nrdp nrdp.nccp.netflix.com
+netflix-android android.nccp.netflix.com
+netflix-playstation-net
+video.dl.playstation.net
+netflix-ssm ssm.internet.sony.tv 
+netflix-ssm1 ssm1.internet.sony.tv
+netflix-ssm2 ssm2.internet.sony.tv
+netflix-ssm3 ssm3.internet.sony.tv
+netflix-treb treb.internet.sony.tv 

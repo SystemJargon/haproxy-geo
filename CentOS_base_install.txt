@@ -1,0 +1,23 @@
+Update and install haproxy
+yum update
+wget https://gist.githubusercontent.com/ChrisMcKee/9cdb1bf9c5314f320ec5/raw/a35bf3ff2a9e6ce622ae6234e05158aa1c49c910/InstallHaProxy.sh
+chmod +x InstallHaProxy.sh
+./InstallHaProxy.sh
+service haproxy stop
+Configure iptables
+vim /etc/sysconfig/iptables
+*filter
+:INPUT DROP [47367:30201687]
+-A INPUT -s 127.0.0.0/8 -d 127.0.0.0/8 -j ACCEPT
+-A INPUT -m state --state ESTABLISHED,RELATED -j ACCEPT
+-A INPUT -s x.x.x.x/24 -j ACCEPT
+-A INPUT -s x.x.x.x/23 -j ACCEPT
+-A INPUT -s x.x.x.x/32 -p tcp -m multiport --dports 16000:20000 -j ACCEPT
+:FORWARD ACCEPT [0:0]
+:OUTPUT ACCEPT [54351:17409377]
+COMMIT
+Configure haproxy
+
+Copy the latest /etc/haproxy/haproxy.cfg 
+
+restart the haproxy service

@@ -1,0 +1,14 @@
+genconf.php will spit out configuration for the following applications:
+
+Bind
+* zones.override
+* db.override
+* individual zone files per domain
+
+DNSMASQ
+* Host file
+
+HAProxy
+* full haproxy.cfg script
+
+IPTables
